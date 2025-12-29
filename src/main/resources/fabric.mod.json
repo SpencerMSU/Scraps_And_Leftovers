@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "scraps_and_leftovers",
+  "version": "0.1_Beta",
+  "name": "Scraps & Leftovers",
+  "description": "Ever wondered where the bones from your chicken go? This mod adds a touch of realism by giving you back 'leftovers' from certain foods!",
+  "authors": [
+    "SpencerMSU"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/scraps_and_leftovers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "msu.msuteam.ScrapsLeftovers"
+    ]
+  },
+  "mixins": [
+    "scraps_and_leftovers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
